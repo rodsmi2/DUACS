@@ -1,0 +1,13 @@
+{
+  "name": "duacs",
+  "version": "0.1.0",
+  "dependencies": {
+  	"formidable": "1.0.13",
+  	"jpegtran-bin": "0.1.5",
+  	"optipng-bin": "0.2.4"
+  },
+  "engines": {
+    "node": "0.8.6",
+    "npm": "1.1.48"
+  }
+}
