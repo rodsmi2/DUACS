@@ -28,16 +28,16 @@
             </header>
 
             <section class="content">
-                <p>Use the button below to select an image(s) to convert. Then let us know if you'd like to compress it or not (JPG/PNG only), and press go!</p>
+                <p>Use the button below to select an image to convert. Then let us know if you'd like to compress it or not (JPG/PNG only), and press go!</p>
 
                 <form id="image_submission" enctype="multipart/form-data" action="/display" method="post">
                     <div class="element">
-                        <a class="file-selector" href="#">Choose File(s)</a>
+                        <a class="file-selector" href="#">Choose File</a>
                         <div style="visibility: hidden; width: 0; height: 0;">
-                            <input id="image" type="file" multiple name="image[]" />
+                            <input id="image" type="file" name="image[]" />
                         </div>
                         <div class="filename"></div>
-                        <div class="info">You may choose more than one. Total file size allowed is 2MB.</div>
+                        <div class="info">Total file size allowed is 2MB.</div>
                     </div>
                     <div class="element compression">
                         <label for="compress">Compress Images?:</label>
